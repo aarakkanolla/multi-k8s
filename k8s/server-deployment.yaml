@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: stephengrider/multi-server
+          image: aarakkanolla/multi-server
           ports:
             - containerPort: 5000
           env:
@@ -35,3 +35,4 @@ spec:
                 secretKeyRef:
                   name: pgpassword
                   key: PGPASSWORD
+  
